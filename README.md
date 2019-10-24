@@ -1,3 +1,10 @@
+# todo
+redis.go : implement Broadcast interface
++ 基与原broadcase,增加redis发布订阅，还需要有主动的redis订阅监听进程
++ 原有的redis adaptor实现因为新的接口方法增多而失效了
+
+
+// Expired
 # go-socket.io-redis
 
 By running go-socket.io with this adapter, you can run multiple socket.io 
